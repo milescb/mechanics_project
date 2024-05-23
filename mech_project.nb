@@ -1,0 +1,80 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 13.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      2191,         70]
+NotebookOptionsPosition[      1734,         55]
+NotebookOutlinePosition[      2238,         72]
+CellTagsIndexPosition[      2195,         69]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"m", " ", "=", " ", "1"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"B", " ", "=", " ", "1"}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"\[CapitalGamma]", " ", "=", " ", "1"}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{"eqn", " ", "=", " ", 
+  RowBox[{
+   RowBox[{"m", "*", 
+    RowBox[{"D", "[", 
+     RowBox[{
+      RowBox[{"y", "[", 
+       RowBox[{"x", ",", " ", "t"}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"t", ",", " ", "2"}], "}"}]}], "]"}]}], " ", "+", " ", 
+   RowBox[{"B", "*", 
+    RowBox[{"D", "[", 
+     RowBox[{
+      RowBox[{"y", "[", 
+       RowBox[{"x", ",", " ", "t"}], "]"}], ",", " ", "t"}], "]"}]}], " ", 
+   "-", " ", 
+   RowBox[{"\[CapitalGamma]", "*", 
+    RowBox[{"D", "[", 
+     RowBox[{
+      RowBox[{"y", "[", 
+       RowBox[{"x", ",", " ", "t"}], "]"}], ",", " ", 
+      RowBox[{"{", 
+       RowBox[{"x", ",", " ", "2"}], "}"}]}], "]"}]}]}]}]}], "Input",
+ CellChangeTimes->{{3.925470780964492*^9, 3.925470816253059*^9}, {
+  3.925470906598571*^9, 3.92547098184129*^9}, {3.925471121017147*^9, 
+  3.9254711323336143`*^9}},ExpressionUUID->"a12b86df-dd75-44fd-a343-\
+957c7bac7a33"]
+},
+WindowSize->{927, 853},
+WindowMargins->{{4, Automatic}, {Automatic, 4}},
+FrontEndVersion->"13.3 for Mac OS X ARM (64-bit) (June 3, 2023)",
+StyleDefinitions->FrontEnd`FileName[{$RootDirectory, "Users", "miles_cb", 
+   "opt", "StyleSheets"}, "Dracula.nb", CharacterEncoding -> "UTF-8"],
+ExpressionUUID->"fc74ad96-926a-42ea-961c-5964f74938d4"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 1172, 33, 112, "Input",ExpressionUUID->"a12b86df-dd75-44fd-a343-957c7bac7a33"]
+}
+]
+*)
+
+(* End of internal cache information *)
+
